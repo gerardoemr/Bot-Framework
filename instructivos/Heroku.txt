@@ -1,0 +1,38 @@
+Instructivo para habilitar un bot utilizando Heroku.
+
+Se debe tener una aplicación de Heroku y heroku habilitado desde la terminal,
+consultar el tutorial completo en:
+https://medium.com/@chinnatiptaemkaeo/create-fb-bot-with-heroku-nodejs-microsoft-bot-framework-687bd2893238
+
+0. Instalar bibliotecas necesarias (>npm install biblioteca)
+
+1. Crear package.json con el comando >npm init
+
+2. Dentro del archivo package.json agregar la siguiente línea	
+...
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node index.js" <<-- esta línea!
+  },
+...
+
+3. crear archivo .gitignore dentro de la carpeta que contiene al index.js
+   escribir en la primera línea node_modules/
+
+4. Ejecutar (>git init) desde la carpeta que contiene al index.js
+
+5. >git add .
+
+6. >git commit -am "comentario"
+
+7. >heroku git:remote -a "nombre de la app de heroku"
+
+8. >git push heroku master
+
+9. >heroku ps:scale web=1
+
+10. >heroku domains (solo si se necesita la URL a la aplicación para darla de alta en bot framework)
+
+11. >heroku config:set MICROSOFT_APP_ID="APPID" MICROSOFT_APP_PASSWORD="APPPASSWORD" (Las contraseñas se generan en el portal de bot framework)
+
+12. >heroku restart	
