@@ -11,5 +11,6 @@
 
 4. Abrir el emulador (botframework-emulator) y enviar cualquier mensaje al bot. 
    El destinatario recibe el archivo adjunto por correo.
+   
 ![Alt Text](https://media.giphy.com/media/l0HU0iReJSulGZXeo/giphy.gif)
 ![Alt Text](https://media.giphy.com/media/l0HU2vYdJ97nV568M/giphy.gif)
