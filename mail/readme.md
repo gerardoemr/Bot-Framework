@@ -7,6 +7,8 @@
 
 3. Ejecutar desde terminal
 	`>nodemon index.js`
+	
+	
   ![Alt Text](https://media.giphy.com/media/3o7527MoccQEeeKHrq/giphy.gif)
 
 4. Abrir el emulador (botframework-emulator) y enviar cualquier mensaje al bot. 
