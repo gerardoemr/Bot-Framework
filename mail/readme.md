@@ -2,7 +2,7 @@
 ![Alt Text](https://media.giphy.com/media/l0HUhDjvsbpEzqMWk/giphy.gif)
 
 2. Instalar las bibliotecas: nodemailer, botbuilder, restify, bluebird y request-promise
-	`>npm install "biblioteca"`
+	`>npm install -save "biblioteca"`
 ![Alt Text](https://media.giphy.com/media/l0HU4NGTI4NpZGP2o/giphy.gif)
 
 3. Ejecutar desde terminal
