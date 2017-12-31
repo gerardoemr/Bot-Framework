@@ -13,6 +13,6 @@
     ![Alt Text](https://media.giphy.com/media/3o7525jIuJVgz5Z1eg/giphy.gif)
 
 4. Enviar cualquier mensaje al bot, los mensajes del usuario se guardarán automáticamente en el archivo
-   'conversacion.txt' en el mismo directorio.
+   'conversacion.txt' en el mismo directorio. (Nota: es mejor abrir el archivo en cualuquier editor de texto que no sea Bloc de Notas)
    
     ![Alt Text](https://media.giphy.com/media/3o7524WnSajrsijYEo/giphy.gif)
