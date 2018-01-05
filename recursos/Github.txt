@@ -4,3 +4,14 @@ https://help.github.com/articles/adding-an-existing-project-to-github-using-the-
 
 --Borrar el historial de commits
 https://gist.github.com/stephenhardy/5470814
+
+--Para actualizar desde el repositorio 
+git pull origin master 
+
+--Para verificar el estado del repositorio
+git status
+
+--Para actualizar hacia el repositorio
+git add .
+git commit -m "comentario"
+git push origin master
