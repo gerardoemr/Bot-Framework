@@ -7,7 +7,5 @@ En este proyecto se ejemplifica:
 2. Registro de conversaciones (logging)
 3. Operaciones sobre bases de datos (database)
 
-## **Uso**
-
 ### **Créditos**
 Andrés Márquez, Gerardo Martínez y Rodrigo Velázquez
