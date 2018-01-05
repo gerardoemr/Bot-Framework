@@ -1,3 +1,4 @@
+//Bibliotecas para crear un bot y un servidor.
 const builder = require('botbuilder');
 const restify = require('restify');
 
@@ -6,13 +7,20 @@ const connector = new builder.ChatConnector({
     appPassword: process.env.MICROSOFT_APP_PASSWORD
    });
 
+//Biblioteca para crear una aplicación web
 const express = require('express');
+
 const app = express();
+
+//Biblioteca para manejar una base de datos
 var pg = require('pg');
+
+//Biblioteca para manejar queries 
 var format = require('pg-format');
-var pguser = 'postgres';
-var pgbase = 'dvdrental';
-var pgcon = 'Memento1';
+
+var pguser = ''; //Nombre de usuario de postgres
+var pgbase = ''; //Nombre de la base de datos
+var pgcon = ''; //Contraseña de postgres
 var llave = 7;
 var config = {
     user: pguser,
