@@ -1,8 +1,10 @@
+//Biblioteca para manipular directorios o archivos.
 var fs = require('fs');
 
-// This loads the environment variables from the .env file
+//Con esto se cargan las variables en el archivo .env
 require('dotenv-extended').load();
 
+//Bibliotecas para crear el bot y el servidor
 const builder = require('botbuilder');
 const restify = require('restify');
 
