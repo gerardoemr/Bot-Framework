@@ -1,4 +1,4 @@
-Este ejemplo utiliza esta [base de datos](http://www.postgresqltutorial.com/postgresql-sample-database/) de PostgreSQL. 
+Este bot realiza consultas sobre una base de datos, en este ejemplo se utiliza [esta base](http://www.postgresqltutorial.com/postgresql-sample-database/) de PostgreSQL. 
 
 1. Agregar el nombre de usuario y contraseña de PostgreSQL, así como el nombre de la base de datos en el archivo index.js
 
